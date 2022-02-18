@@ -1,48 +1,115 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="robots" content="noindex">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anita Selvarangame | Web Developer & UX designer</title>
-    <meta name="description" content="Freelance Web and Digital Developer crafting innovative online experiences on the web and social media.">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">    
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img//favicon-32x32.png">    
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img//favicon-16x16.png">    
-    <link rel="manifest" href="assets/img/site.webmanifest">
-    <link rel="stylesheet" href="assets/css/global.css">
+    <title>Sample Web Page Title</title>
+    <meta name="description" content="Sample web page description goes here.">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+	<!-- Preload hero image -->
+
+
+	<!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/lunadoge.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+	<!-- Google Fonts -->
+
+    
+	<!-- Font Awesome 5 icons -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+
+    <!-- Light Awesome icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Google Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+
 </head>
 
+
 <body>
-    <h1>Anita Selvarangame</h1>
-    <h2>Web / UX Designer</h2>
 
-    <img class="fitting-image" src="assets/img/beach1.jpg" alt="Home page image">
+    <!-- navigation menu -->
+    <nav></nav>
+
+    <!-- header hero block -->
+    <header class="hero-block text-center-desktop text-center-mobile">
+        <div class="hero-text-container">
+            <h1 class="fade-in" id="home">Anita Selvarangame</h1>
+            <h2 class="fade-in">Web development student</h2>
+        </div>
+        <div class="container-btn">
+            <a href="portfolio/index.html" class="btn btn-primary btn-soft"><span>My projects</span><i class="fas fa-code"></i></a>
+            <a href="contact/index.html" class="btn btn-secondary btn-soft"><span>Contact me</span><i class="fas fa-comments"></i></a>
+        </div>
+        
+    </header> 
     
-    <h3>I created this website to showcase some of my recent web design work.</h3>  
-    
-    <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-    <p><a href="exercises/page-2.html">IBAT Chocolates</a></p>
-    <p><a href="exercises/page-3.html">Prince & Purple Rain</a></p>
-    <p><a href="exercises/page-4.html">Lorem Ipsum Text</a></p>
-    <p><a href="exercises/page-5.html">Vincent van Gogh</a></p>
-    <p><a href="exercises/page-6.html">Irish Tourism</a></p>
-    <p><a href="exercises/page-7.html">Smoothies</a></p>
-    <p><a href="exercises/page-8.html">Software Analytics</a></p>
-    <p><a href="exercises/page-9.html">The Box Model</a></p> 
-    <p><a href="exercises/page-10.html">Web Page With Panels</a></p> 
-    <p><a href="exercises/hero-text.html">Hero block with animated text</a></p> 
-    <p><a href="exercises/hero-image.html">Hero block with background image</a></p> 
-    <p><a href="exercises/hero-video.html">Hero block with background video</a></p> 
-    <p><a href="exercises/page-11.html">Responsive grid of rows and columns</a></p> 
+    <!-- main content with sections -->
+    <main>
+ 
+	<section class="container-flex theme-one col-shadows corners-soft text-center">
+		<div class="col-1 text-center">
+			<h2 id="projects">Recent projects</h2>
+			<h3>Below you can see some examples of my recent work. Check out my complete portfolio.</h3> 
+		</div>
 
+		<div class="col-3">
+			<figure><img src="assets/img/project-van-gogh.png" alt="Food"></figure>
+			
+			<h3>Vincent Van Gogh</h3>
+			<p>A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube.</p>
+            <a href="portfolio/van-gogh/index.html" class="btn btn-primary btn-soft"><span>View project</span></a>
+		</div>
 
+		<div class="col-3">
+			<figure><img src="assets/img/project-smoothie.jpg" alt="Design"></figure>
+			
+			<h3>Smooth Smoothies</h3>
+			<p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
+            <a href="portfolio/smoothies/index.html" class="btn btn-primary btn-soft"><span>View project</span></a>
+
+		</div>
+
+		<div class="col-3">
+			<figure><img src="assets/img/project-fashion.jpg" alt="Gap of Dunloe"></figure>
+	
+			<h3>Snazzy Fashion</h3>
+            <p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+            <a href="portfolio/fashion/index.html" class="btn btn-primary btn-soft"><span>View project</span></a>
+
+		</div>
+	</section>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+
+		<h2>Anita Selvarangame, Web development</h2>
+
+		<ul class="footer-icons">
+			<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fab fa-github-square"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+		</ul>
+
+        <ul class="footer-links">
+			<li><a href="#">Home</a></li>
+			<li><a href="portfolio/index.html">Projects preview</a></li>
+			<li><a href="contact/index.html">Contact</a></li>
+		</ul>
+
+		<p class="privacy"><a href="#">Privacy &amp; Legal</a></p>
+
+    </footer>
+       
+    <script src="assets/js/menu.js"></script>
 
 </body>
 </html>
