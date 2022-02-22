@@ -1776,12 +1776,12 @@ a.btn-ghost:active {
 }
 
 #contact-form ::placeholder { 
-    background-color: var(--ontrend-100)  
+    background-color: #f0cfd3 
 }
 
 #contact-form input, #contact-form textarea {
 	padding: 10px 12px;
-	border: 2px solid var(--blue-200);
+	border: 2px solid #000;
 	border-radius: 5px;
 }
 

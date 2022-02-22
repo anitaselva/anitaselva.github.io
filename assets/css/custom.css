@@ -59,7 +59,8 @@
     --pink-900: #2b0a1a;
 
     --red-100: #f8d7da;
-    --red-200: #f1aeb5;
+    --red-200: #f0bac0;
+    --red-250: #f0bac0;
     --red-300: #ea868f;
     --red-400: #e35d6a;
     --red-500: #dc3545;
@@ -134,220 +135,110 @@
 }
 
 /* Global font */
-body { font-family: var(--global-font) }
+body { font-family: 'Rubik', sans-serif }
 
-/* Index */
-header.hero-block { background-color: var(--yellow-100) }
-header.hero-block h1 { color: var(--blue-200) }
-header.hero-block h2 { color: var(--blue-200) }
+/* HEADER */
+header.hero-block { background-color: #f1c8cd }
+header.hero-block h1 { color: #000 }
+header.hero-block h2 { color: #212529 }
 header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { color: var(--blue-200) }
+header.hero-block a.btn-primary:visited { color: #000; background-color: #f7d6e600; border-color: #000}
 
 header.hero-block a.btn-primary:focus,
 header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { color: var(--blue-200) }
-
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { background-color: var(--yellow-100) }
-
-header.hero-block a.btn-primary:focus,
-header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { background-color: var(--ontrend-100) }
-
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { border-color: var(--blue-200) }
-
-header.hero-block a.btn-primary:focus,
-header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { border-color: var(--blue-200) }
+header.hero-block a.btn-primary:active { color: #000; background-color: #f7d6e66c; border-color: #000}
 
 header.hero-block a.btn-secondary:link,
-header.hero-block a.btn-secondary:visited { color: var(--blue-200) }
+header.hero-block a.btn-secondary:visited { color: #000; background-color: #f7d6e600; border-color: #000 }
 
 header.hero-block a.btn-secondary:focus,
 header.hero-block a.btn-secondary:hover,
-header.hero-block a.btn-secondary:active { color: var(--blue-200) }
+header.hero-block a.btn-secondary:active { color: #000; background-color: #f7d6e66c; border-color: #000 }
 
-header.hero-block a.btn-secondary:link,
-header.hero-block a.btn-secondary:visited { background-color: var(--yellow-100) }
 
-header.hero-block a.btn-secondary:focus,
-header.hero-block a.btn-secondary:hover,
-header.hero-block a.btn-secondary:active { background-color: var(--ontrend-100) }
+/* PROJECTS */
 
-header.hero-block a.btn-secondary:link,
-header.hero-block a.btn-secondary:visited { border-color: var(--blue-200) }
+.theme-one .col-1 h2 { color: #000;}
+.theme-one .col-1 h3 { color: #212529;  padding-bottom: 30px; font-weight: 500;}
+.theme-one .col-1 h4 { color: #000; font-size: x-large; font-weight: 300;}
+.theme-one .col-3 h3 { color: #000 }
+.theme-one .col-3 p { color: #212529; font-weight: 500; }
+.theme-one .col-3 li { color: #000 }
+.theme-one { background-color: #f0cfd3  }
+.theme-one a.btn-primary:link,
+.theme-one a.btn-primary:visited { border-color: #000; background-color: #f0cfd3; color: #000 }
+.theme-one a.btn-primary:focus,
+.theme-one a.btn-primary:hover,
+.theme-one a.btn-primary:active { border-color: #000; background-color: #eed4d7; color: #000 }
 
-header.hero-block a.btn-secondary:focus,
-header.hero-block a.btn-secondary:hover,
-header.hero-block a.btn-secondary:active { border-color: var(--blue-200) }
+/* FOOTER */
 
-.theme-one .col-1 h2 { color: var(--blue-200);}
-.theme-one .col-1 h3 { color: var(--blue-100);  padding-bottom: 30px; font-weight: 500;}
-.theme-one .col-1 h4 { color: var(--blue-200); font-size: x-large; font-weight: 300;}
-.theme-one .col-3 h3 { color: var(--blue-200) }
-.theme-one .col-3 p { color: var(--blue-100); font-weight: 500; }
-.theme-one .col-3 li { color: var(--blue-200) }
-.theme-one { background-color: var(--yellow-100) }
-.theme-one a.btn-primary:link { color: var(--blue-200) }
-.theme-one a.btn-primary:visited { color: var(--blue-200) }
-.theme-one a.btn-primary:focus { color: var(--blue-200) }
-.theme-one a.btn-primary:hover { color: var(--blue-200) }
-.theme-one a.btn-primary:active { color: var(--blue-200) }
-.theme-one a.btn-primary:link { background-color: var(--yellow-100) }
-.theme-one a.btn-primary:visited { background-color: var(--yellow-100) }
-.theme-one a.btn-primary:focus { background-color: var(--ontrend-100) }
-.theme-one a.btn-primary:hover { background-color: var(--ontrend-100) }
-.theme-one a.btn-primary:active { background-color: var(--ontrend-100) }
-.theme-one a.btn-primary:link { border-color: var(--blue-200) }
-.theme-one a.btn-primary:visited { border-color: var(--blue-200) }
-.theme-one a.btn-primary:focus { border-color: var(--blue-200) }
-.theme-one a.btn-primary:hover { border-color: var(--blue-200) }
-.theme-one a.btn-primary:active { border-color: var(--blue-200) }
-
-footer { background-color: var(--yellow-100) }
-footer h2 { color: var(--blue-200); 
+footer { background-color:#f1c8cd}
+footer h2 { color: #000; 
     font-style: italic;
     font-size: xx-large;
     font-weight: 500; }
 footer ul.footer-links li a:link, 
-footer ul.footer-links li a:visited { color: var(--blue-200); text-decoration-color: var(--blue-200) ;
+footer ul.footer-links li a:visited { color: #000; text-decoration-color: #000 ;
                                         font-size: medium;}
 
 footer p.privacy a:link, 
-footer p.privacy a:visited { color: var(--blue-200); text-decoration-color: var(--blue-200); font-size: medium;
+footer p.privacy a:visited { color: #000; text-decoration-color: #000; font-size: medium;
                             text-decoration: none; }
 
 footer ul.footer-links li a:focus, 
 footer ul.footer-links li a:hover, 
-footer ul.footer-links li a:active { color: var(--blue-100); text-decoration-color: var(--blue-100); font-size: medium; }
+footer ul.footer-links li a:active { color: #212529; text-decoration-color: #212529; font-size: medium; }
 
 footer p.privacy a:focus, 
 footer p.privacy a:hover, 
-footer p.privacy a:active { color: var(--blue-100); text-decoration-color: var(--blue-100); font-size: medium;
+footer p.privacy a:active { color: #212529; text-decoration-color: #212529; font-size: medium;
                             text-decoration: none; }
 
 footer ul.footer-icons li a:link i, 
-footer ul.footer-icons li a:visited i { color: var(--blue-200)}
+footer ul.footer-icons li a:visited i { color: #000}
 
 footer ul.footer-icons li a:focus i, 
 footer ul.footer-icons li a:hover i, 
-footer ul.footer-icons li a:active i { color: var(--blue-100)}
+footer ul.footer-icons li a:active i { color: #212529}
 
-header.hero-block { background-color: var(--yellow-100) }
-header.hero-block h1 { color: var(--blue-200) }
-header.hero-block h2 { color: var(--blue-100) }
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { color: var(--blue-200) }
+/* CONTACT */
 
-header.hero-block a.btn-primary:focus,
-header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { color: var(--blue-200) }
-
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { background-color: var(--yellow-100) }
-
-header.hero-block a.btn-primary:focus,
-header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { background-color: var(--ontrend-100) }
-
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { border-color: var(--blue-200) }
-
-header.hero-block a.btn-primary:focus,
-header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { border-color: var(--blue-200) }
-
-/* Portfolio Index 
-
-header.hero-block { background-color: var(--yellow-100) }
-header.hero-block h1 { color: var(--blue-200) }
-header.hero-block h2 { color: var(--blue-100) }
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { color: var(--blue-200) }
-
-header.hero-block a.btn-primary:focus,
-header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { color: var(--blue-200) }
-
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { background-color: var(--yellow-100) }
-
-header.hero-block a.btn-primary:focus,
-header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { background-color: var(--ontrend-100) }
-
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { border-color: var(--blue-200) }
-
-header.hero-block a.btn-primary:focus,
-header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { border-color: var(--blue-200) }
-
-Contact Index
-header.hero-block { background-color: var(--yellow-100) }
-header.hero-block h1 { color: var(--blue-200) }
-header.hero-block h2 { color: var(--blue-100) }
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { color: var(--blue-200) }
-
-header.hero-block a.btn-primary:focus,
-header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { color: var(--blue-200) }
-
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { background-color: var(--yellow-100) }
-
-header.hero-block a.btn-primary:focus,
-header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { background-color: var(--ontrend-100) }
-
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { border-color: var(--blue-200) }
-
-header.hero-block a.btn-primary:focus,
-header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { border-color: var(--blue-200) }
-
-*/
-
-/* Contact form */
-
-.container-contact-form { background-color: var(--yellow-100) }
-#contact-form { background-color: var(--ontrend-100) }
-#contact-form h2 { color: var(--blue-200) }
-#contact-form p { color: var(--blue-200) }
-#contact-form p a:link { color: var(--blue-200); }
-#contact-form p a:visited { color: var(--blue-200) }
-#contact-form p a:focus { color: var(--blue-200) }
-#contact-form p a:hover { color: var(--blue-200) }
-#contact-form p:active { color: var(--blue-200) }
-#contact-form label { color: var(--blue-200) }
-#contact-form [type="text"] { background-color: var(--ontrend-100)}
-#contact-form [type="email"] { background-color: var(--ontrend-100) }
-#contact-form textarea { background-color: var(--ontrend-100) }
-#contact-form #btn-submit { color: var(--blue-200) }
-#contact-form #btn-submit:focus { color: var(--blue-200) }
-#contact-form #btn-submit:hover { color: var(--blue-200) }
-#contact-form #btn-submit { background-color: var(--ontrend-100) }
-#contact-form #btn-submit:focus { background-color: var(--ontrend-100) }
-#contact-form #btn-submit:hover { background-color: var(--ontrend-100) }
-#contact-form #btn-submit { border-color: var(--blue-200) }
-#contact-form #btn-submit:focus { border-color: var(--blue-200) }
-#contact-form #btn-submit:hover { border-color: var(--blue-200) }
+.container-contact-form { background-color:#f0cfd3 }
+#contact-form { background-color: #f0cfd3}
+#contact-form h2 { color: #000 }
+#contact-form p { color: #000 }
+#contact-form p a:link { color: #000; }
+#contact-form p a:visited { color: #000 }
+#contact-form p a:focus { color: #000 }
+#contact-form p a:hover { color: #000 }
+#contact-form p:active { color: #000 }
+#contact-form label { color: #000 }
+#contact-form [type="text"] { background-color:#f0cfd3}
+#contact-form [type="email"] { background-color: #f0cfd3 }
+#contact-form textarea { background-color: #f0cfd3 }
+#contact-form #btn-submit { color: #000 }
+#contact-form #btn-submit:focus { color: #000 }
+#contact-form #btn-submit:hover { color: #000 }
+#contact-form #btn-submit { background-color: #f0cfd3 }
+#contact-form #btn-submit:focus { background-color: #f0cfd3 }
+#contact-form #btn-submit:hover { background-color: #f0cfd3 }
+#contact-form #btn-submit { border-color: #000 }
+#contact-form #btn-submit:focus { border-color: #000 }
+#contact-form #btn-submit:hover { border-color: #000 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    background-color: var(--ontrend-100);
-    color: var(--blue-200);
+    background-color: #f7d6e6;
+    color: #000;
     opacity: 1; /* Firefox */
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    background-color: var(--ontrend-100);
-    color: var(--blue-200);
+    background-color: #f7d6e6;
+    color: #000;
   }
   
   ::-ms-input-placeholder { /* Microsoft Edge */
-    background-color: var(--ontrend-100);
-    color: var(--blue-200);
+    background-color: #f7d6e6;
+    color: #000;
   }

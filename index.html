@@ -13,14 +13,16 @@
 	<link rel="manifest" href="assets/img/site.webmanifest">
 
 	<!-- Preload hero image -->
-
+	<link rel="preload" href="assets/img/header-img.jpg" as="image">  
 
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/lunadoge.css" />
     <link rel="stylesheet" href="assets/css/custom.css" />
 
 	<!-- Google Fonts -->
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     
 	<!-- Font Awesome 5 icons -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
@@ -43,13 +45,19 @@
     <!-- header hero block -->
     <header class="hero-block text-center-desktop text-center-mobile">
         <div class="hero-text-container">
-            <h1 class="fade-in" id="home">Anita Selvarangame</h1>
-            <h2 class="fade-in">Web development student</h2>
+            <h1 class="slide-in-left" id="home">Anita Selvarangame</h1>
+            <h2 class="slide-in-left">Web development student</h2>
         </div>
-        <div class="container-btn">
+        <div class="container-btn slide-in-right">
             <a href="portfolio/index.html" class="btn btn-primary btn-soft"><span>My projects</span><i class="fas fa-code"></i></a>
             <a href="contact/index.html" class="btn btn-secondary btn-soft"><span>Contact me</span><i class="fas fa-comments"></i></a>
         </div>
+
+		<div class="hero-bg-media">
+			<img src="assets/img/header-img.jpg" alt="Placeholder image">
+		</div>
+	
+		<div class="bg-overlay"></div>
         
     </header> 
     
@@ -88,6 +96,8 @@
 
 		</div>
 	</section>
+
+	
 
     </main>
 
