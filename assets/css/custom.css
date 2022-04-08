@@ -135,25 +135,25 @@
 }
 
 /* Global font */
-body { font-family: 'Rubik', sans-serif }
+body { font-family: 'Nunito', sans-serif }
 
 /* HEADER */
 header.hero-block { background-color: #f1c8cd }
-header.hero-block h1 { color: #000 }
-header.hero-block h2 { color: #212529 }
+header.hero-block h1 { color: #F8FAFC }
+header.hero-block h2 { color: #F1F5F8 }
 header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { color: #000; background-color: #f7d6e600; border-color: #000}
+header.hero-block a.btn-primary:visited { color: #F1F5F8; background-color: #f7d6e600; border-color: #F1F5F8}
 
 header.hero-block a.btn-primary:focus,
 header.hero-block a.btn-primary:hover,
-header.hero-block a.btn-primary:active { color: #000; background-color: #f7d6e66c; border-color: #000}
+header.hero-block a.btn-primary:active { color: #F1F5F8; background-color: #f7d6e66c; border-color: #F1F5F8}
 
 header.hero-block a.btn-secondary:link,
-header.hero-block a.btn-secondary:visited { color: #000; background-color: #f7d6e600; border-color: #000 }
+header.hero-block a.btn-secondary:visited { color: #F1F5F8; background-color: #f7d6e600; border-color: #F1F5F8 }
 
 header.hero-block a.btn-secondary:focus,
 header.hero-block a.btn-secondary:hover,
-header.hero-block a.btn-secondary:active { color: #000; background-color: #f7d6e66c; border-color: #000 }
+header.hero-block a.btn-secondary:active { color: #F1F5F8; background-color: #f7d6e66c; border-color: #F1F5F8 }
 
 
 /* PROJECTS */
@@ -242,3 +242,32 @@ footer ul.footer-icons li a:active i { color: #212529}
     background-color: #f7d6e6;
     color: #000;
   }
+
+@media (max-width: 767px){
+.hero-block h1 {
+    letter-spacing: 0px;
+}}
+
+.hero-block h1 {
+  font-size: calc(46px + (72 - 46) * ((100vw - 320px) / (1920 - 320)));
+  margin-bottom: 24px;
+}
+
+.container-menu.menu-desktop { background-color: var(--trans-000) }
+.container-menu.menu-mobile { background-color: var(--trans-000) }
+.container-menu.menu-mobile ul.mobile-display { background-color: var(--trans-000) }
+.container-menu a:link,
+.container-menu a:visited { color: var(--red-200) }
+.container-menu a:focus,
+.container-menu a:hover,
+.container-menu a:active { color: var(--red-100) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { border-color: var(--red-200) }
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active { border-color: var(--red-100) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { background-color: var(--red-200) }
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active { background-color: var(--red-100) }
