@@ -163,7 +163,7 @@ header.hero-block a.btn-primary:focus,
 header.hero-block a.btn-primary:hover,
 header.hero-block a.btn-primary:active {
   color: #000;
-  background-color: #d6eef76c;
+  background-color: #a3eeb16c;
   border-color: #000
 }
 
@@ -177,9 +177,9 @@ header.hero-block a.btn-secondary:visited {
 header.hero-block a.btn-secondary:focus,
 header.hero-block a.btn-secondary:hover,
 header.hero-block a.btn-secondary:active {
-  color: #F1F5F8;
-  background-color: #d6eef76c;
-  border-color: #F1F5F8
+  color: #000;
+  background-color: #a3eeb16c;
+  border-color: #000
 }
 
 
@@ -203,6 +203,10 @@ header.hero-block a.btn-secondary:active {
 
 .theme-one .col-3 h3 {
   color: #000
+}
+
+.theme-one .col-3 h3 a:link {
+  color: #002564b5
 }
 
 .theme-one .col-3 p {
@@ -308,7 +312,7 @@ footer ul.footer-icons li a:active i {
 }
 
 #contact-form p a:link {
-  color: #000;
+  color: #002564b5;
 }
 
 #contact-form p a:visited {
@@ -424,7 +428,7 @@ footer ul.footer-icons li a:active i {
 
 .container-menu a:link,
 .container-menu a:visited {
-  color: #ffffff
+  color: #000
 }
 
 .container-menu a:focus,
@@ -437,7 +441,7 @@ footer ul.footer-icons li a:active i {
 .container-menu a#btn-cta:visited {
   background-color: #32b55cd4;
   border-color: #32b55cd4;
-  color: #ffffff
+  color: #000
 }
 
 .container-menu a#btn-cta:focus,
@@ -445,5 +449,5 @@ footer ul.footer-icons li a:active i {
 .container-menu a#btn-cta:active {
   background-color: #80cd99;
   border-color: #80cd99;
-  color: #ffffff
+  color: #afd6bc
 }
