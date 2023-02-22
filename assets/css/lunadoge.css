@@ -2771,7 +2771,7 @@ a.btn-ghost:active {
 /* ================== FOOTER =============== */
 
 /* Desktop footer - inside padding  */
-@media (min-width:768px) {
+@media (min-width:768) {
     footer {
         padding: 4% 8% 2% 8%
     }
@@ -3003,7 +3003,7 @@ footer p.privacy a:active {
 /* ======================= MENUS ========================*/
 
 .container-menu {
-    height: 72px;
+    height: 80px;
     width: 100%;
     z-index: 999;
     display: flex;
@@ -3022,8 +3022,8 @@ footer p.privacy a:active {
 }
 
 .container-menu a:first-child img {
-    width: 200px;
-    height: 40px;
+    width: 220px;
+    height: 50px;
     outline: 0
 }
 
