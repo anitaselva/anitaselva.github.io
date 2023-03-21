@@ -414,6 +414,8 @@ footer ul.footer-icons li a:active i {
   margin-bottom: 24px;
 }
 
+/* Nav Bar */
+
 .container-menu.menu-desktop {
   background-color: #32b55cd4
 }
@@ -450,4 +452,49 @@ footer ul.footer-icons li a:active i {
   background-color: #80cd99;
   border-color: #80cd99;
   color: #afd6bc
+}
+
+/* Skills section */
+
+.top {
+  margin: 50px 0px 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top h1 {
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+.skills {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.skills p {
+  font-size: 15px;
+  font-family: 'karla';
+}
+
+.skills div {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.separation {
+  position: relative;
+  left: 25%;
+  background-image: linear-gradient(0deg, #000000, #000);
+  width: 50%;
+  height: 1px;
 }
