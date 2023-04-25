@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FlexBox Exercise #3 - Image carousel / Responsive </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="carousel.css" />
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/lunadoge.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript">
+    </script>
+
+</head>
+
+<body>
+    <!-- navigation menu -->
+
+    <nav class="container-menu menu-desktop">
+        <a href="#"><img src="assets/img/faviconio-logo/website_logo.png" alt="website logo"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio/upcoming.html">Upcoming</a></li>
+            <li><a href="contact/index.html">Contact</a></li>
+            <li><a href="assets/CV/CV_2023.pdf" id="btn-cta" class="btn-rounded"><span>CV</span><i
+                        class="fas fa-arrow-right"></i></a></li>
+        </ul>
+    </nav>
+
+    <div class="carousel">
+        <div class="carousel__nav">
+            <span id="moveLeft" class="carousel__arrow">
+                <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+                </svg>
+            </span>
+            <span id="moveRight" class="carousel__arrow">
+                <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                </svg>
+            </span>
+        </div>
+        <div class="carousel-item carousel-item--1">
+            <div class="carousel-item__image"></div>
+            <div class="carousel-item__info">
+                <div class="carousel-item__container">
+                    <h2 class="carousel-item__subtitle">Group project | 2023 | One month</h2>
+                    <h1 class="carousel-item__title">42sh</h1>
+                    <p class="carousel-item__description">For this project we had to recreate a
+                        bash-like terminal in C. During this project we learned how to do a proper lexing and
+                        parsing,
+                        we also re-implemented some built-ins. We had to manage command execution, variable
+                        expansion, subshells, command substitutions and some other bash features. We used git for
+                        versionning as usual and did a python test suite.</p>
+                    <a href="#" class="carousel-item__btn">Explore the tour</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item carousel-item--2">
+            <div class="carousel-item__image"></div>
+            <div class="carousel-item__info">
+                <div class="carousel-item__container">
+                    <h2 class="carousel-item__subtitle">The big window </h2>
+                    <h1 class="carousel-item__title">Minimal window</h1>
+                    <p class="carousel-item__description">Clear Glass Window With Brown and White Wooden Frame iste
+                        natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    <a href="#" class="carousel-item__btn">Read the article</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item carousel-item--3">
+            <div class="carousel-item__image"></div>
+            <div class="carousel-item__info">
+                <div class="carousel-item__container">
+                    <h2 class="carousel-item__subtitle">Tropical palms </h2>
+                    <h1 class="carousel-item__title">Palms</h1>
+                    <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam.</p>
+                    <a href="#" class="carousel-item__btn">Explore the palms</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item carousel-item--4">
+            <div class="carousel-item__image"></div>
+            <div class="carousel-item__info">
+                <div class="carousel-item__container">
+                    <h2 class="carousel-item__subtitle">Beach </h2>
+                    <h1 class="carousel-item__title">The beach </h1>
+                    <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam.</p>
+                    <a href="#" class="carousel-item__btn">Explore the beach</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item carousel-item--5">
+            <div class="carousel-item__image"></div>
+            <div class="carousel-item__info">
+                <div class="carousel-item__container">
+                    <h2 class="carousel-item__subtitle">The white building </h2>
+                    <h1 class="carousel-item__title">White building</h1>
+                    <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam.</p>
+                    <a href="#" class="carousel-item__btn">Read the article</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="carousel.js" type="text/javascript"></script>
+
+</body>
+
+</html>
